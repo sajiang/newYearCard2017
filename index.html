@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+	<title>best wishes</title>
+	<meta charset="utf-8">
+	<meta name="viewport" id="viewport" content="width=320, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link href="https://cdn.bootcss.com/fullPage.js/2.9.2/jquery.fullPage.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<div id="loading">
+    <img src="img/logo1.png">
+    <div class="loader">
+
+    </div>
+    
+</div>
+<div id="music" class="music_on">
+</div>
+<audio src="music/music.mp3" id="audio" autoplay="autoplay" loop="loop" style="display: none"></audio>
+<div id="fullpage">
+    <div class="section">
+        <div id="p1AniWapper">
+            <div id="p1Ani">
+                <div class="center">
+                    <div class="head1  fadeInDown animated" >
+                        <img src="img/head.gif">
+                    </div>
+                    <div class="center title1 biggerFont boldFont red fadeIn animatedMd delay4">
+                        <div class="biggestFont"><span id="fromPerson">海旗</span></div>
+                        <div>给您拜年啦！</div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img src="img/ji1.gif" class="ji1 fadeInRight animatedMd">
+                    <img src="img/nian.gif" class="nian fadeInUp animatedMd delay1">
+                    <img src="img/da.gif" class="da fadeInLeft animatedMd delay2">
+                    <img src="img/ji2.gif" class="ji2 fadeInDown animatedMd delay3">
+                    <img src="img/cloud.gif" class="cloud1 fadeInRightShake animatedMd delay4">
+                    <img src="img/cloud.gif" class="cloud2 fadeInRightShake animatedMd delay4">
+                    <img src="img/cloud.gif" class="cloud3 fadeInRightShake animatedMd delay4">
+                </div>
+                <div class="bottom1 fadeInUp animated">
+                    <img src="img/bottom.gif">
+                </div> 
+            </div>
+        </div>
+        <canvas class="snow"></canvas>
+        <canvas class="bigSnow"></canvas>
+    </div>
+    <div class="section">
+        <div id="p2AniWapper">
+            <div id="p2Ani">
+                <div class="center">
+                    <div class="newYear fadeInDown animatedMd">
+                        <img src="img/2017.png">
+                    </div>
+                </div>
+                <div class="words">
+                    <p id="toPerson"></p>
+                    <p>过去的一年承蒙您的照顾啦</p>
+                </div>
+                <div class="bottom2">
+                    <p>所以~</p>
+                    <p>祝您：</p>
+                </div>
+                <img src="img/pheasant.png" class="pheasant rotateY animatedMd delay6">
+            </div>
+        </div>
+        <canvas class="redPocket"></canvas>
+    </div>
+    <div class="section">
+       <div id="p3AniWapper">
+            <div id="p3Ani" class=" golden biggerFont">
+                <div class="relative tuodan hide" >
+                    <img src="img/zao.png" class="zao fadeInRight animatedMd">
+                    <img src="img/ri.png" class="ri fadeInUp animatedMd delay1">
+                    <img src="img/tuo.png" class="tuo fadeInLeft animatedMd delay2">
+                    <img src="img/dan.png" class="dan fadeInDown animatedMd delay3">
+                    <img src="img/cloud.gif" class="cloud1 fadeInRightShake animatedMd delay4">
+                    <img src="img/cloud.gif" class="cloud2 fadeInRightShake animatedMd delay4">
+                    <img src="img/cloud.gif" class="cloud3 fadeInRightShake animatedMd delay4">
+                </div>
+                <div class="relative tuodan " >
+                    <img src="img/zhuan.png" class="zhuan fadeInRight animatedMd">
+                    <img src="img/hen.png" class="hen fadeInUp animatedMd delay1">
+                    <img src="img/duo.png" class="duo fadeInLeft animatedMd delay2">
+                    <img src="img/qian.png" class="qian fadeInDown animatedMd delay3">
+                    <img src="img/cloud.gif" class="cloud1 fadeInRightShake animatedMd delay4">
+                    <img src="img/cloud.gif" class="cloud2 fadeInRightShake animatedMd delay4">
+                    <img src="img/cloud.gif" class="cloud3 fadeInRightShake animatedMd delay4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section back4">
+    </div>
+</div>
+<script src="https://cdn.bootcss.com/jquery/3.1.1/jquery.js"></script>
+<script src="https://cdn.bootcss.com/fullPage.js/2.9.2/jquery.fullPage.js"></script>
+<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script type="text/javascript" src="js/jquery.let_it_snow.js"></script>
+
+<script type="text/javascript" src="index.js"></script>
+<script type="text/javascript" src="js/share.js"></script>
+<script type="text/javascript">
+    getShareInfo(window.location.href);
+</script>
+</body>
+</html>
